@@ -1,0 +1,28 @@
+﻿Build started 9/3/2015 4:47:05 PM.
+     1>Project "C:\Users\wade.gushikuma\Desktop\Project1\Project1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I./inc /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /D _MBCS /D GLM_FORCE_PURE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp
+         Camera.cpp
+     1>c:\users\wade.gushikuma\desktop\project1\camera.cpp(106): error C2780: 'glm::tvec4<T,P> glm::rotate(const glm::tvec4<T,P> &,const T &,const glm::tvec3<T,P> &)': expects 3 arguments - 2 provided
+         c:\users\wade.gushikuma\desktop\project1\inc\glm\gtx\rotate_vector.hpp(89): note: see declaration of 'glm::rotate'
+     1>c:\users\wade.gushikuma\desktop\project1\camera.cpp(106): error C2780: 'glm::tvec3<T,P> glm::rotate(const glm::tvec3<T,P> &,const T &,const glm::tvec3<T,P> &)': expects 3 arguments - 2 provided
+         c:\users\wade.gushikuma\desktop\project1\inc\glm\gtx\rotate_vector.hpp(81): note: see declaration of 'glm::rotate'
+     1>c:\users\wade.gushikuma\desktop\project1\camera.cpp(106): error C2784: 'glm::tvec2<T,P> glm::rotate(const glm::tvec2<T,P> &,const T &)': could not deduce template argument for 'const glm::tvec2<T,P> &' from 'double'
+         c:\users\wade.gushikuma\desktop\project1\inc\glm\gtx\rotate_vector.hpp(74): note: see declaration of 'glm::rotate'
+     1>c:\users\wade.gushikuma\desktop\project1\camera.cpp(106): error C2782: 'glm::tmat4x4<T,P> glm::rotate(T,const glm::tvec3<T,P> &)': template parameter 'T' is ambiguous
+         c:\users\wade.gushikuma\desktop\project1\inc\glm\gtx\transform.hpp(71): note: see declaration of 'glm::rotate'
+         c:\users\wade.gushikuma\desktop\project1\camera.cpp(106): note: could be 'float'
+         c:\users\wade.gushikuma\desktop\project1\camera.cpp(106): note: or       'double'
+     1>c:\users\wade.gushikuma\desktop\project1\camera.cpp(106): error C2784: 'glm::tvec4<T,P> glm::rotate(const glm::tquat<T,P> &,const glm::tvec4<T,P> &)': could not deduce template argument for 'const glm::tquat<T,P> &' from 'double'
+         c:\users\wade.gushikuma\desktop\project1\inc\glm\gtx\quaternion.hpp(138): note: see declaration of 'glm::rotate'
+     1>c:\users\wade.gushikuma\desktop\project1\camera.cpp(106): error C2784: 'glm::tvec3<T,P> glm::rotate(const glm::tquat<T,P> &,const glm::tvec3<T,P> &)': could not deduce template argument for 'const glm::tquat<T,P> &' from 'double'
+         c:\users\wade.gushikuma\desktop\project1\inc\glm\gtx\quaternion.hpp(130): note: see declaration of 'glm::rotate'
+     1>c:\users\wade.gushikuma\desktop\project1\camera.cpp(106): error C2780: 'glm::tmat4x4<T,P> glm::rotate(const glm::tmat4x4<T,P> &,T,const glm::tvec3<T,P> &)': expects 3 arguments - 2 provided
+         c:\users\wade.gushikuma\desktop\project1\inc\glm\gtc\matrix_transform.hpp(101): note: see declaration of 'glm::rotate'
+     1>c:\users\wade.gushikuma\desktop\project1\camera.cpp(106): error C2780: 'glm::tquat<T,P> glm::rotate(const glm::tquat<T,P> &,const T &,const glm::tvec3<T,P> &)': expects 3 arguments - 2 provided
+         c:\users\wade.gushikuma\desktop\project1\inc\glm\gtc\quaternion.hpp(255): note: see declaration of 'glm::rotate'
+     1>Done Building Project "C:\Users\wade.gushikuma\Desktop\Project1\Project1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.81
